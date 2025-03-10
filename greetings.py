@@ -1,5 +1,5 @@
-def greet_user():
+def greet_user(username):
     """Print simple greeting"""
-    print("Hi friends!")
+    print(f"Hi friends, including {username.title()}!")
 
-greet_user()
+greet_user('tofer')
